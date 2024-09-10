@@ -12,7 +12,9 @@ python main.py
 ```sh
 git clone
 cd app
-source env/Scripts/activate
+python -m venv env 
+source env/Scripts/activate # Para Windows
+source env/bin/activate # para Linux o MAC
 pip install -r requirements.txt
 python main.py
 ```
